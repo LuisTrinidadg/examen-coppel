@@ -1,7 +1,7 @@
 import React from "react";
 import "./benefits.css";
 import recetaIcon from "../../assets/documentos.svg";
-import envioIcon from "../../assets/Envíogratis1.2.svg";
+import envioIcon from "../../assets/Enviogratis1.2.svg";
 import preciosIcon from "../../assets/dinero.svg";
 
 const Benefits = () => {
