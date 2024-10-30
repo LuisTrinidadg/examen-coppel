@@ -1,0 +1,141 @@
+.treatment-section {
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 1280px;
+    margin:0 auto; 
+}
+  
+.treatment-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+  
+.treatment-text {
+    max-width: 650px;
+    text-align: left;
+}
+  
+.treatment-text h3 {
+    font-size: 24px;
+    max-width: 300px;
+    color: #333;
+    margin-bottom: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+  
+.treatment-text p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, Arial, sans-serif;
+}
+  
+.treatment-button {
+    background-color: #006fb9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+}
+  
+.treatment-image img {
+    width: 100%;
+}
+  
+.categories-title {
+    font-size: 24px;
+    color: #333;
+    margin-top: 40px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+  
+.categories-description {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, Arial, sans-serif;
+    max-width: 680px;
+    margin: 0 auto;
+}
+  
+.categories-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    justify-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .categories-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+.category-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+@media (max-width: 767px) {
+    .category-card {
+        max-width: 400px;
+    }
+}
+.category-icon {
+    width: 40px;
+    margin-bottom: 10px;
+}
+  
+.category-card p {
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Helvetica, Arial, sans-serif;
+}
+  
+.pharmacy-button {
+    background-color: #006fb9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+}
+.operator-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.show-more-button,
+.show-less-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+}
